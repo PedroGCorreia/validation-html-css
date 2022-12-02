@@ -29,7 +29,7 @@ a {
 /*Background inicial*/
 
 .home-bg {
-    background-image: url(/Assests/cup-coffee-background.png);
+    background-image: url(./Assests/cup-coffee-background.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
