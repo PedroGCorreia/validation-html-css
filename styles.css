@@ -264,7 +264,7 @@ a {
 /*Rodape*/
 
 .rodape-bg {
-    background-image: url(/Assests/laptop-background.png);
+    background-image: url(./Assests/laptop-background.png);
     background-position: center;
     background-size: cover;
     width: 1903px;
