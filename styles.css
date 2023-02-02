@@ -137,7 +137,7 @@ a {
 /*Beneficios*/
 
 .beneficios {
-    height: 100vh;
+    height: 80vh;
 }
 
 .beneficios-info h2 {
@@ -171,6 +171,8 @@ a {
     display: flex;
     flex-direction: column;
     gap: 60px;
+    width: 400px;
+    height: 450px;
     align-items: center;
     background-color: #EFA331;
     border-radius: 5px;
@@ -198,7 +200,7 @@ a {
 /*Por que Café?*/
 
 .pq-cafe {
-    height: 100vh;
+    height: 80vh;
 }
 
 .pq-info h2 {
@@ -221,7 +223,7 @@ a {
 }
 
 .pq-container {
-    max-width: 80vw;    
+    max-width: 80vw;  
     margin: 15px auto;
 }
 
@@ -230,16 +232,13 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
 }
 
 .card2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    padding: 50px 50px;
+    /*align-items: center;*/
+    padding: 50px 50px; 
 }
 
 .numeros-pq {
@@ -263,7 +262,7 @@ a {
 /*Relato dos amantes*/
 
 .relatos {
-    height: 100vh;
+    height: 80vh;
 }
 
 .relatos h2 {
@@ -317,6 +316,10 @@ a {
     background-size: cover;
     width: 100vw;
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .container-logos {
@@ -324,15 +327,21 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    align-items: center;
     justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
 }
 
-.logo-face, .logo-insta, .logo-twitter {
+.logo-face, .logo-insta {
     background-color: #EFA331;
     border-radius: 100%;
-    height: 100px;
-    width: 100px;
+    padding: 27px;
+}
+
+.logo-twitter {
+    background-color: #EFA331;
+    border-radius: 100%;
+    padding: 32px;
 }
 
 footer p{
@@ -340,4 +349,8 @@ footer p{
     color: black;
     background-color: #EFA331;
     border-radius: 5px;
+    height: 49px;
+    width: 376px;
+    text-align: center;
+    padding-top: 10px;
 }
