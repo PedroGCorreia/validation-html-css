@@ -212,6 +212,20 @@ a {
     height: 80vh;
 }
 
+.cafe-bg {
+    position: absolute;
+    font-size: 200px;
+    color: #FFFEFE26;
+    font-family: 'Montaga';
+    font-style: normal;
+    width: 90vw;
+    text-align: center;
+    letter-spacing: 75px;
+    margin-left: 49px;
+    margin-top: 275px;
+    user-select: none;
+}
+
 .pq-info h2 {
     font-size: 40px;
     text-align: center;
