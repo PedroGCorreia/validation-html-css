@@ -12,7 +12,6 @@ body {
 }
 
 button{
-    background-color: #EFA331;
     color: white;
 }
 
@@ -84,6 +83,11 @@ a {
     border-radius: 5px;
     font-size: 17px;
     font-weight: bold;
+    background-color: #EFA331
+}
+
+.botao-topo:hover {
+    background-color: #F2BD6C;
 }
 
 /*Parte inicial*/
@@ -132,6 +136,11 @@ a {
     font-weight: bold;
     border: 0;
     border-radius: 5px;
+    background-color: #EFA331
+}
+
+.botao-centro:hover {
+    background-color: #F2BD6C;
 }
 
 /*Beneficios*/
@@ -238,6 +247,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 50px 50px; 
+    text-align: center;
 }
 
 .numeros-pq {
@@ -278,21 +288,53 @@ a {
     margin: 0px 0 60px 0;
 }
 
-.relatos fieldset {
-    width: 30vw;
+.container-slides {
+    display: flex;
+}
+
+.slide {
+    width: 25vw;
+    border: 2px  solid #EFA331;
+    padding: 33px;
+}
+
+.slide legend {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     padding: 10px;
 }
 
-.relatos blockquote {
-    font-size: 25px;
+.citacao {
+    font-size: 20px;
     text-align: center;
-    border-color: #EFA331;
+    font-weight: normal;
+    font-style: italic;
 }
 
-.container-citacao {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.slide img {
+    border-radius: 70%;
+}
+
+#prev, #next {
+    cursor: pointer;
+}
+
+#prev:hover, #next:hover {
+    color: #EFA331;
+}
+
+.dot {
+    cursor: pointer;
+    fill: white;
+}
+
+.dot:hover {
+    fill: #EFA331;
+}
+
+.block {
+    opacity: 1;
 }
 
 .img-copo {
@@ -329,6 +371,11 @@ a {
     margin-left: 42vw;
     margin-top: 40px;
     border-radius: 5px;
+    background-color: #EFA331;
+}
+
+.botao-fim:hover {
+    background-color: #F2BD6C;
 }
 
 
