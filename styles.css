@@ -304,11 +304,15 @@ a {
 
 .container-slides {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
 }
 
 .slide {
     width: 25vw;
-    border: 2px  solid #EFA331;
+    height: 320px;
+    border: 3px  solid #EFA331;
     padding: 33px;
 }
 
@@ -327,11 +331,12 @@ a {
 }
 
 .slide img {
-    border-radius: 70%;
+    border-radius: 50%;
 }
 
 #prev, #next {
     cursor: pointer;
+    user-select: none;
 }
 
 #prev:hover, #next:hover {
@@ -347,16 +352,12 @@ a {
     fill: #EFA331;
 }
 
-.block {
-    opacity: 1;
-}
-
 .img-copo {
     display: flex;
     flex-direction: row;
     gap: 35px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 /*Duvidas*/
